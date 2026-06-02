@@ -75,7 +75,3 @@ The project relies on standard, lightweight Python libraries:
 - `google-generativeai`
 
 No heavy GPU dependencies are strictly required since the dense retrieval model is highly optimized.
-
-## License
-
-This project is open-source and available for research and educational purposes.
