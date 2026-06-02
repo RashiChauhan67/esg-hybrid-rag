@@ -1,0 +1,47 @@
+# ============================================================
+# ESG RAG System — Requirements
+# Python 3.10+
+# ============================================================
+
+# --- Dense Semantic Retrieval (sentence-transformers) ---
+sentence-transformers>=2.6.0
+transformers>=4.40.0
+torch>=2.0.0
+
+# --- PDF Processing ---
+PyMuPDF>=1.23.0
+pdfplumber>=0.10.0
+
+# --- OCR ---
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# --- BM25 Retrieval ---
+rank-bm25>=0.2.2
+nltk>=3.8.0
+
+# --- LLM Generation ---
+google-generativeai>=0.8.0
+openai>=1.0.0
+
+# --- Evaluation ---
+bert-score>=0.3.13
+scipy>=1.10.0
+
+# --- Data & Numerics ---
+numpy>=1.24.0
+pandas>=2.0.0
+
+# --- Config & Utils ---
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+rich>=13.0.0
+
+# --- Testing ---
+pytest>=7.0.0
+pytest-mock>=3.10.0
+
+# --- Notebook ---
+jupyter>=1.0.0
+ipykernel>=6.0.0
+matplotlib>=3.7.0
